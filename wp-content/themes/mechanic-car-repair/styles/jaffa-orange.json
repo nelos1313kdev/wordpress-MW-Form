@@ -1,0 +1,37 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "title": "Sea Green",
+  "version": 2,
+  "settings": {
+    "color": {
+        "palette": [
+                {
+                    "color": "#ffffff",
+                    "name": "Base",
+                    "slug": "base"
+                },
+                {
+                    "color": "#000000",
+                    "name": "Contrast",
+                    "slug": "contrast"
+                },
+                {
+                    "color": "#dd9142",
+                    "name": "Primary",
+                    "slug": "primary"
+                },
+                {
+                    "color": "#dd9142",
+                    "name": "Secondary",
+                    "slug": "secondary"
+                },
+                {
+                    "color": "#F6F6F6",
+                    "name": "Tertiary",
+                    "slug": "tertiary"
+                }
+                
+            ]
+    }
+  }
+}

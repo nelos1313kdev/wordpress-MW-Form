@@ -1,0 +1,425 @@
+/* Text meant only for screen readers. */
+.screen-reader-text {
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    word-wrap: normal;
+}
+
+.screen-reader-text:focus {
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+    clip: auto;
+    clip-path: none;
+    color: #21759b;
+    display: block;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: bold;
+    height: auto;
+    right: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000;
+    /* Above WP toolbar. */
+}
+
+#content {
+    background-color: #fff;
+}
+
+#content[tabindex="-1"]:focus {
+    outline: 0;
+}
+
+.hidden {
+    visibility: hidden;
+    width: 0px !important;
+    height: 0px !important;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+blockquote,
+blockquote p {
+    color: var(--dt-secondary-color);
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+blockquote {
+    border-radius: 2rem;
+    padding: 4rem 8rem 4rem 4rem;
+    margin: 4rem 0 4rem;
+    position: relative;
+    background: rgba(189, 189, 189, 0.2);
+    border: 0.1rem solid rgba(189, 189, 189, 0.35);
+    z-index: 0;
+}
+
+blockquote::after {
+    content: "\f10e";
+    font-weight: 700;
+    font-size: 5.2rem;
+    color: rgba(189, 189, 189, 0.4);
+    line-height: 1;
+    font-family: "Font Awesome 6 Free";
+    position: absolute;
+    right: 3.3rem;
+    top: 2.7rem;
+    z-index: -1;
+}
+
+blockquote p {
+    color: var(--dt-secondary-color);
+    font-size: 2.4rem;
+    line-height: 1.3;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+blockquote cite {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--dt-secondary-color);
+}
+
+blockquote a:not(:hover, :focus) {
+    text-decoration: none;
+}
+
+.single-post .react-order-list {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+.single-post .react-order-list li {
+    list-style: none;
+    position: relative;
+    padding-left: 2.9rem;
+    line-height: 1.25;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.single-post .react-order-list li:last-child {
+    margin-bottom: 0;
+}
+
+.single-post .react-order-list li:before {
+    position: absolute;
+    content: "\f058";
+    left: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+    text-align: center;
+    font-family: 'Font Awesome 6 Free';
+    color: var(--dt-main-color);
+    font-size: 2.2rem;
+    font-weight: 900;
+    line-height: 1;
+}
+
+/* Gallery Css Here*/
+
+.gallery .gallery-icon a {
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+
+.gallery .gallery-icon img {
+    width: 100%;
+    object-fit: cover;
+    -webkit-transition: 0.3s all ease;
+    transition: 0.3s all ease;
+}
+
+.gallery .gallery-item:hover .gallery-icon img,
+.gallery .gallery-item:focus-within .gallery-icon img {
+    opacity: 0.8;
+}
+
+.gallery {
+    margin-top: -2.7%;
+}
+
+.gallery .gallery-item {
+    background-color: var(--dt-secondary-color);
+    padding: 0;
+    margin-right: 2.7%;
+    margin-top: 2.7%;
+    text-align: center;
+    float: left;
+}
+
+.gallery-columns-1 .gallery-item {
+    width: 100%;
+}
+
+.gallery-columns-2 .gallery-item {
+    width: 45%;
+}
+
+.gallery-columns-3 .gallery-item {
+    width: 31.3%;
+}
+
+.gallery-columns-4 .gallery-item {
+    width: 20%;
+}
+
+.gallery-columns-5 .gallery-item {
+    width: 17.7%;
+}
+
+.gallery-columns-6 .gallery-item {
+    width: 13.6%;
+}
+
+.gallery-columns-7 .gallery-item {
+    width: 12.25%;
+}
+
+.gallery-columns-8 .gallery-item {
+    width: 10.5%;
+}
+
+.gallery-columns-9 .gallery-item {
+    width: 9.11%;
+}
+
+.gallery-columns-1 .gallery-item:nth-child(1n),
+.gallery-columns-2 .gallery-item:nth-child(2n),
+.gallery-columns-3 .gallery-item:nth-child(3n),
+.gallery-columns-4 .gallery-item:nth-child(4n),
+.gallery-columns-5 .gallery-item:nth-child(5n),
+.gallery-columns-6 .gallery-item:nth-child(6n),
+.gallery-columns-7 .gallery-item:nth-child(7n),
+.gallery-columns-8 .gallery-item:nth-child(8n),
+.gallery-columns-9 .gallery-item:nth-child(9n) {
+    margin-right: 0;
+}
+
+.gallery dl a {
+    display: block;
+}
+
+.gallery dl a img {
+    height: auto;
+    margin: 0 auto;
+}
+
+.gallery br+br {
+    display: none;
+}
+
+/* Widget Gallery  */
+
+.widget .gallery {
+    display: flow-root;
+    margin-top: -2.5%;
+}
+
+.widget .gallery .gallery-icon a::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    content: "\f08e";
+    font-family: 'fontAwesome';
+    font-weight: 400;
+    width: 4rem;
+    height: 4rem;
+    line-height: 4rem;
+    font-size: 2rem;
+    opacity: 0;
+    color: #fff;
+    border-radius: 10rem;
+    -webkit-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
+    -webkit-transition: 0.3s all ease;
+    transition: 0.3s all ease;
+    z-index: 1;
+}
+
+.widget .gallery .gallery-icon a:hover::after,
+.widget .gallery .gallery-icon a:focus::after {
+    opacity: 1;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.widget .gallery-item:hover .gallery-icon img,
+.widget .gallery-item:focus-within .gallery-icon img {
+    opacity: 0.2;
+}
+
+/*Image Alignments and captions*/
+
+img.alignnone {
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+#attachment_907 {
+    width: 100%;
+}
+
+img.alignleft,
+.wp-caption.alignleft {
+    margin-right: 30px;
+}
+
+img.alignright,
+.wp-caption.alignright {
+    margin-left: 30px;
+    float: right;
+    clear: both;
+    margin-bottom: 30px;
+}
+
+img.wp-caption .alignnone {
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    width: 100%;
+}
+
+a img.alignright {
+    float: right;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+}
+
+a img.aligncenter {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aligncenter {
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+.alignleft {
+    float: left;
+    margin: .5em 20px .5em 0;
+}
+
+.alignright {
+    float: right;
+    margin: .5em 0 .5em 20px;
+}
+
+.wp-caption .wp-caption-text,
+.gallery-caption,
+.entry-caption {
+    clear: left;
+    font-style: italic;
+    line-height: 1.5em;
+    margin: 0.75em 0;
+    text-align: center;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 14px;
+    margin: 12px 0;
+    text-align: center;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 1.5em;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #f8f8f8;
+    border-color: #eee;
+    border-image: initial;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 20px;
+    max-width: 100%;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    text-align: center;
+}
+
+.wp-caption>img {
+    max-width: 100%;
+}
+
+form.post-password-form label,
+form.post-password-form input {
+    display: inline-block;
+}
+/*---//---*/
+
+body .is-layout-flex {
+    display: flex;
+}
+
+body .is-layout-flex {
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+:where(.is-layout-flex) {
+    gap: 0.5em;
+}
+
+:where(.wp-block-columns.is-layout-flex) {
+    gap: 2em;
+}
+
+:where(.wp-block-columns.is-layout-flex) {
+    gap: 2em;
+}
+
+.wp-block-social-links.wp-container-1,
+.wp-block-social-links.wp-container-2 {
+    justify-content: center;
+}
+
+.wp-block-gallery.wp-block-gallery-6 {
+    --wp--style--unstable-gallery-gap: var( --wp--style--gallery-gap-default, var( --gallery-block--gutter-size, var( --wp--style--block-gap, 0.5em ) ) );
+    gap: var( --wp--style--gallery-gap-default, var( --gallery-block--gutter-size, var( --wp--style--block-gap, 0.5em ) ) );
+}
+
+.widget .wp-block-gallery.has-nested-images figure.wp-block-image img {
+    min-height: 11.4rem;
+}
+
+.dt_widget-area .widget .wp-block-social-links.is-style-default:not(.is-style-logos-only) li a:not(:hover, :focus) {
+    color: #fff;
+}

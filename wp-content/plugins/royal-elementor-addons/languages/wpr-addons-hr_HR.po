@@ -1,0 +1,142 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wpr-addons\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-06 12:34+0000\n"
+"PO-Revision-Date: 2024-11-13 19:08+0400\n"
+"Last-Translator: YOUR NAME <youremail@example.com>\n"
+"Language-Team: YOUR TEAM <teamemail@example.com>\n"
+"Language: hr_HR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+
+msgid "Image"
+msgstr "Slika"
+
+msgid "Name"
+msgstr "Naziv"
+
+msgid "Rating"
+msgstr "Ocjena"
+
+msgid "Description"
+msgstr "Opis"
+
+msgid "Price"
+msgstr "Cijena"
+
+msgid "SKU"
+msgstr "SKU"
+
+msgid "Stock Status"
+msgstr "Stanje zaliha"
+
+msgid "Dimensions"
+msgstr "Dimenzije"
+
+msgid "Weight"
+msgstr "Težina"
+
+msgid "In Stock"
+msgstr "Na skladištu"
+
+msgid "Out of Stock"
+msgstr "Nema na skladištu"
+
+msgid "Add to Cart"
+msgstr "Dodaj u košaricu"
+
+msgid "View Cart"
+msgstr "Pogledaj košaricu"
+
+msgid "Cart"
+msgstr "Košarica"
+
+msgid "Checkout"
+msgstr "Blagajna"
+
+msgid "Product"
+msgstr "Proizvod"
+
+msgid "Products"
+msgstr "Proizvodi"
+
+msgid "Subtotal"
+msgstr "Međuzbroj"
+
+msgid "Total"
+msgstr "Ukupno"
+
+msgid "Billing Details"
+msgstr "Podaci za naplatu"
+
+msgid "Shipping"
+msgstr "Dostava"
+
+msgid "Payment"
+msgstr "Plaćanje"
+
+msgid "Order Summary"
+msgstr "Sažetak narudžbe"
+
+msgid "Place Order"
+msgstr "Potvrdi narudžbu"
+
+msgid "Customer Reviews"
+msgstr "Recenzije kupaca"
+
+msgid "Continue Shopping"
+msgstr "Nastavi kupovinu"
+
+msgid "Order"
+msgstr "Narudžba"
+
+msgid "Order Number"
+msgstr "Broj narudžbe"
+
+msgid "Thank you. Your order has been received."
+msgstr "Hvala. Vaša narudžba je zaprimljena."
+
+msgid "Payment Method"
+msgstr "Način plaćanja"
+
+msgid "Return to Shop"
+msgstr "Povratak u trgovinu"
+
+msgid "Featured"
+msgstr "Istaknuto"
+
+msgid "Sale"
+msgstr "Rasprodaja"
+
+msgid "Coupon code"
+msgstr "Kod za popust"
+
+msgid "Default Sorting"
+msgstr "Zadano sortiranje"
+
+msgid "Latest"
+msgstr "Najnovije"
+
+msgid "Popularity"
+msgstr "Popularnost"
+
+msgid "Average rating"
+msgstr "Prosječna ocjena"
+
+msgid "Price: Low to High"
+msgstr "Cijena: Od najniže"
+
+msgid "Price: High to Low"
+msgstr "Cijena: Od najviše"
+
+msgid "Title: A to Z"
+msgstr "Naslov: Od A do Z"
+
+msgid "Title: Z to A"
+msgstr "Naslov: Od Z do A"
+
+msgid "In stock"
+msgstr "Na skladištu"

@@ -1,0 +1,153 @@
+.getting-started .notice-dismiss::before {
+    display: none;
+}
+a.getting-started-notice-dismiss {
+    position: absolute;
+    top: 0;
+    right: 6px;
+    border: none;
+    margin: 0;
+    padding: 9px;
+    background: 0 0;
+    cursor: pointer;
+    text-decoration: none;
+    vertical-align: top;
+}
+.getting-started-notice-dismiss:hover,
+.getting-started-notice-dismiss:focus,
+.getting-started-notice-dismiss:active {
+    color: #bababa;
+}
+.getting-started-notice-dismiss:before {
+    display: inline-block;
+    line-height: 1;
+}
+.getting-started.notice p strong {
+    font-size: 15px;
+}
+.updated.notice.notice-success.is-dismissible.getting-started{
+    padding: 20px 20px 24px 28px;
+}
+.wp-core-ui p .button {
+    display: inline-table;
+    vertical-align: middle;
+}
+.button-primary.button-hero:before {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -2px;
+}
+.titan-buttons {
+    display: flex;
+    gap: 15px;
+}
+.mechanic-car-repair-themeinfo-page--wrapper {
+    background: #fff;
+    padding: 50px;
+    margin: 20px 20px;
+}
+a.mechanic-car-repair-button.button-primary {
+    background: #f74883;
+    padding: 2px 10px;
+    font-size: 14px;
+    color: #fff;
+    text-transform: none;
+    text-decoration: none;
+    font-weight: 700;
+    border: none;
+    border-radius: 0;
+}
+a.mechanic-car-repair-button.button-primary-1  {
+    background: #f74883;
+    padding: 13px 25px;
+    font-size: 16px;
+    color: #fff;
+    text-transform: none;
+    text-decoration: none;
+    font-weight: 700;
+    border: none;
+}
+a.mechanic-car-repair-button.button-primary:hover{
+    background: #6b3ba9;
+}
+.mechanic-car-repair-features {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px -15px 0;
+}
+.mechanic-car-repair-features > div {
+    flex: 0 0 40%;
+    padding: 10px 10px 45px 20px;
+    background: #f7f7f7;
+    margin: 0 12px 20px;
+    border-radius: 10px;
+    position: relative;
+}
+.mechanic-car-repair-features-box i {
+    background: #fff;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 33px;
+    border: 1px solid #ebe2e2;
+    box-shadow: 0 0 10px #c8c2c2;
+}
+.mechanic-car-repair-themeinfo-page--wrapper p {
+    font-size: 16px;
+}
+p.customization-notice {
+    background: #eee;
+    padding: 20px;
+    font-weight: 500;
+    font-style: italic;
+    border-radius: 6px;
+}
+.mechanic-car-repair-header-left h2 {
+    font-size: 30px;
+}
+a.mechanic-car-repair-button.button-secondary-1 {
+    position: absolute;
+    background: #6b3ba9;
+    bottom: 14px;
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #fff;
+    text-transform: none;
+    text-decoration: none;
+    font-weight: 700;
+}
+a.mechanic-car-repair-button.button-secondary-1:hover,a.mechanic-car-repair-button.button-primary-1.buy-now:hover{
+    background: #f74883; 
+}
+a.mechanic-car-repair-button.button-primary-1.buy-now,a.mechanic-car-repair-button.button-primary-1.pro-demo:hover,a.mechanic-car-repair-button.button-primary-1.bundle:hover{
+    background:#6b3ba9; 
+}
+.free\&pro {
+    display: flex;
+}
+#mechanic-car-repair-admin-about-page-1,#mechanic-car-repair-admin-about-page-2{
+    width: 50%;
+}
+.mechanic-car-repair-header-left-pro h2 {
+    font-size: 30px;
+    line-height: 40px;
+}
+.mechanic-car-repair-header-left p {
+    margin-right: 60px;
+}
+.mechanic-car-repair-header-right-2 {
+    display: flex;
+    gap: 21px;
+    margin-bottom: 6%;
+    justify-content: center;
+}
+a.mechanic-car-repair-button.button-primary-1.bundle {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    font-size: 23px;
+    margin-top: 18px;
+}

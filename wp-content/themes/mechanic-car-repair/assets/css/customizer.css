@@ -1,0 +1,13 @@
+h3.accordion-section-title a {
+    color: #fff !important;
+    background: #f74883 !important;
+    border: #f74883 !important;
+}
+
+h3.accordion-section-title.premium-details {
+    background: #6b3ba9 !important;
+    color: #fff !important;
+}
+h3.accordion-section-title.premium-details::after {
+    display: none !important;
+}

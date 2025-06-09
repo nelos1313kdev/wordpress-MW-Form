@@ -1,0 +1,49 @@
+.header-top p span {
+  font-size: 22px !important;
+  margin-right: 10px !important;
+}
+.social-box ul {
+  font-size: 20px !important;
+}
+.project-box{
+  position: relative !important;
+}
+.project-box img{
+  height: 400px !important;
+  width: 100% !important;
+}
+.project-box:hover img{
+  height: 513px !important;
+  object-fit: cover !important;
+}
+.slider-banner h2 span {
+  background: var(--wp--preset--color--primary) !important;
+  padding: 0px 12px !important;
+  margin-right: 10px !important;
+}
+.project-box:hover .project-content {
+  position: absolute !important;
+  top: 50% !important; 
+  transform: translateY(-50%) !important;
+  left: 0px !important;
+  right: 0px !important;
+}
+.project-box .service-overlay {
+  background-color: #D10022 !important;
+}
+.project-box:hover .service-overlay img {
+  opacity: 0.3 !important;
+}
+.project-box:hover .project-content h4,.project-box:hover .project-content p{
+  color: #fff !important;
+}
+.project-box {
+  box-shadow: 0 0px 8px #00000029 !important;
+}
+.project-box:hover .service-btn{
+  display: block !important;
+  text-align: center !important;
+}
+.service-btn{
+  display: none !important;
+}

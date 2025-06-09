@@ -1,0 +1,590 @@
+/*
+Theme Name: 	   Avanta
+Text Domain: 	   avanta
+Template: 			corpiva
+Version:            0.4
+Tested up to:       6.8
+Requires at least:  4.7
+Requires PHP:       5.6
+Author:             DesertThemes
+Author URI:         https://desertthemes.com/
+Theme URI:          https://desertthemes.com/themes/avanta-free/
+Description:        Avanta is lightweight, highly extendable and multi-purpose WordPress Theme. Avanta is perfect for Startup, IT Solutions, IT Business, Agencies, Marketing, Consulting and Services Company related to any business websites. Avanta based on in-depth research into IT Solutions, IT Services, IT Business, Consulting & Software, Digital Solution, Technical Engineering, Technology, and Services Company, to deliver all needed layouts and blocks. It will enable you to create almost any type of website with a beautiful & professional design. Avanta supports popular WordPress plugins such as Elementor, WPML, Polylang, Yoast SEO, WooCommerce, Contact Form 7, Jetpack, and much more. Avanta Pro demo https://preview.desertthemes.com/pro/avanta/
+Tags:               one-column, two-columns ,right-sidebar, flexible-header, custom-background, custom-header, custom-menu, editor-style, featured-images, footer-widgets, post-formats, theme-options, threaded-comments, translation-ready, full-width-template, custom-logo, blog, e-commerce, portfolio
+License: GPLv3 or later
+License URI:  https://www.gnu.org/licenses/gpl-3.0.html
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned
+with others.
+*/
+
+:root {
+    --dt-main-rgb: 255, 71, 71;
+    --dt-secondary-color: #9347ff;
+}
+
+/* Header Five */
+.textareaColor{
+	color:red;
+}
+.header--five .site--logo a:focus {
+    outline: 1px dotted #fff;
+    outline-offset: 3px;
+}
+
+.header--five .dt_navbar-wrapper {
+    background-color: var(--dt-main-color);
+}
+
+.header--five .dt_navbar-wrapper .dt_navbar-menu {
+    background-color: #fff;
+    border-radius: 10rem 0 0;
+    padding-left: 5em;
+}
+
+.header--five .dt_header-topbar::before,
+.header--five .dt_navbar-wrapper::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+	width: 40rem;
+    background-color: #fff;
+}
+
+.header--five .dt_mobilenav,
+.header--five .dt_header-topbar,
+.header--five .dt_header-topbar .widget--right,
+.header--five .dt_navbar-wrapper .dt_navbar-menu,
+.header--five .dt_navbar-wrapper:not(.on) {
+    position: relative;
+}
+
+.header--five .dt_navbar-menu {
+/*     justify-content: space-between; */
+}
+
+.header--five .dt_navbar-nav {
+    text-align: start;
+}
+
+.header--five .dt_header-topbar {
+    color: #fff;
+    background-color: var(--dt-secondary-color);
+}
+
+.header--five .dt_header-topbar .widget--right {
+    background-color: var(--dt-main-color);
+    border-radius: 10rem 0 0;
+    padding-left: 5rem;
+}
+
+.header--five .dt_header-topbar .widget--right .contact__list i {
+    color: #fff;
+}
+
+.header--five .dt_mobilenav,
+.header--five .dt_header-topbar::before {
+    background-color: var(--dt-main-color);
+}
+
+.header--five .dt_header-topbar .dt_header-widget a {
+    color: inherit;
+}
+
+.header--five .dt_mobilenav {
+    z-index: 0;
+}
+
+.header--five .dt_mobilenav::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 16rem;
+    background-color: #fff;
+    z-index: -1;
+}
+
+.header--five .dt_mobilenav .dt_mobilenav-toggles {
+    position: relative;
+    background-color: #fff;
+}
+
+.header--five .dt_mobilenav .dt_mobilenav-toggles::before {
+    content: '';
+    position: absolute;
+    top: -1.6rem;
+    right: -1.6rem;
+    bottom: -1.6rem;
+    left: -3.6rem;
+    background-color: #fff;
+    border-radius: 10rem 0 0;
+}
+
+@media (max-width: 543px) {
+    .header--five .dt_mobilenav {
+        background-color: #fff;
+    }
+    .header--five .dt_mobilenav::before,
+    .header--five .dt_mobilenav .dt_mobilenav-toggles::before {
+        display: none;
+    }
+    .header--five .dt_mobilenav .dt_mobilenav-toggles {
+        background-color: transparent;
+    }
+    .header--five .dt_mobilenav .dt_mobilenav-logo {
+        position: relative;
+    }
+	.header--five .dt_mobilenav .dt_mobilenav-logo:before {
+	    content: "";
+	    position: absolute;
+	    top: -1.7rem;
+	    bottom: -1.7rem;
+	    left: -2.4rem;
+	    right: -1.8rem;
+	    background-color: var(--dt-main-color);
+	    z-index: -1;
+	}
+}
+
+/* Slider Six */
+
+.dt_slider--six .dt_slider-content:before {
+    content: "";
+    position: absolute;    
+    top: 0;
+}
+
+.dt_slider--six .dt-text-left .dt_slider-content {
+    padding: 5rem 0 5rem 4rem;
+}
+
+.dt_slider--six .dt-text-left .dt_slider-content:before {
+    width: 159px;
+    height: 100%;
+    left: 0;
+    border-left: 10px solid var(--dt-main-color);
+    border-top: 10px solid var(--dt-main-color);
+    border-bottom: 10px solid var(--dt-main-color);
+}
+
+.dt_slider--six .dt-text-center .dt_slider-content {
+    padding: 5rem 4rem 5rem 4rem;
+}
+
+.dt_slider--six .dt-text-center .dt_slider-content:before {
+    width: 159px;
+    height: 100%;
+    left: 0;
+    border-left: 10px solid var(--dt-main-color);
+    border-top: 10px solid var(--dt-main-color);
+    border-bottom: 10px solid var(--dt-main-color);
+}
+
+.dt_slider--six .dt-text-center .dt_slider-content:after {
+    content: "";
+    width: 159px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-right: 10px solid var(--dt-main-color);
+    border-top: 10px solid var(--dt-main-color);
+    border-bottom: 10px solid var(--dt-main-color);
+}
+
+.dt_slider--six .dt-text-right .dt_slider-content {
+    padding: 5rem 4rem 5rem 0;
+}
+
+.dt_slider--six .dt-text-right .dt_slider-content:before {
+    width: 159px;
+    height: 100%;
+    right: 0;
+    border-right: 10px solid var(--dt-main-color);
+    border-top: 10px solid var(--dt-main-color);
+    border-bottom: 10px solid var(--dt-main-color);
+}
+
+@media (max-width: 991.98px) {
+    .dt_slider--six .dt-text-left .dt_slider-content,
+    .dt_slider--six .dt-text-center .dt_slider-content,
+    .dt_slider--six .dt-text-right .dt_slider-content {
+        padding: 0;
+    }
+    .dt_slider--six .dt-text-center .dt_slider-content:after,
+    .dt_slider--six .dt-text-center .dt_slider-content:before,
+    .dt_slider--six .dt-text-left .dt_slider-content:before,
+    .dt_slider--six .dt-text-right .dt_slider-content:before {
+        display: none;
+    }
+}
+
+.dt_slider--six .dt_owl_carousel.owl-carousel .owl-dots .owl-dot {
+    margin: 0.2rem 0.5rem;
+}
+
+.dt_slider--six .dt_owl_carousel.owl-carousel .owl-nav [class*=owl-] {
+    top: 45%;
+}
+
+@media (max-width: 600px) {
+    .dt_slider--six .dt_owl_carousel.owl-carousel .owl-nav {
+        display: none;
+    }
+}
+
+/* Service Nine ( Information 5 ) */
+
+.dt_service--nine .dt-row.dt-g-5 {
+    --dt-gutter-y: 3.7rem;
+    --dt-gutter-x: 3.7rem;
+}
+
+.dt_service--nine .item-inner {
+    width: 100%;
+    padding: 3.2rem;
+    position: relative;
+    z-index: 0;
+    transition: all .3s ease-in-out;
+}
+.item-inner {
+	width: 110%;
+}
+
+.dt_service--nine .item-inner .overlay-shape {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.dt_service--nine .item-inner:focus-within .overlay-shape .shape1,
+.dt_service--nine .item-inner:hover .overlay-shape .shape1 {
+    background-color: var(--dt-secondary-color);
+}
+
+.dt_service--nine .item-inner .overlay-shape .shape1 {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    position: relative;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    transition: all .3s ease-in-out;
+}
+
+.dt_service--nine .item-inner .overlay-shape .shape1:before {
+    content: "";
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background-color: inherit;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    transform: skewY(-3deg);
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.03);
+}
+
+.dt_service--nine .item-inner .overlay-shape .shape2 {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    bottom: 30px;
+    right: -15px;
+    background-color: var(--dt-main-color);
+    opacity: 0.6;
+    border-radius: 20px;
+    z-index: -1;
+}
+
+.dt_service--nine .item-inner .overlay-shape .shape2:before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background-color: inherit;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    transform: skewY(-5deg);
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.03);
+}
+
+.dt_service--nine .item-inner .item-content {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.dt_service--nine .item-inner .item-content .item-icon {
+    display: inline-block;
+    width: 9rem;
+    height: 9rem;
+    line-height: 8.6rem;
+    background-color: var(--dt-main-color);
+    border: 2px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 4rem;
+    color: #fff;
+    position: relative;    
+    margin-bottom: 25px;
+    transition: all .3s ease-in-out;
+}
+
+.dt_service--nine .item-inner .item-content .item-icon:before {
+    content: "";
+    position: absolute;
+    top: -6px;
+    right: -6px;
+    bottom: -6px;
+    left: -6px;
+    border: 2px solid var(--dt-main-color);
+    border-radius: 50%;
+    transition: all .3s ease-in-out;
+}
+
+.dt_service--nine .item-inner:focus-within .item-content .item-icon:before,
+.dt_service--nine .item-inner:hover .item-content .item-icon:before {
+    border-color: rgba(189, 189, 189, 0.85);
+}
+
+.dt_service--nine .item-inner .item-content .item-content-inner {
+    margin-top: 10px;
+}
+
+.dt_service--nine .item-inner .item-content .item-title,
+.dt_service--nine .item-inner .item-content .item-content-inner .desc {
+    transition: all .3s ease-in-out;
+}
+
+.dt_service--nine .item-inner:focus-within .item-content .item-title,
+.dt_service--nine .item-inner:hover .item-content .item-title,
+.dt_service--nine .item-inner:focus-within .item-content .item-content-inner .desc,
+.dt_service--nine .item-inner:hover .item-content .item-content-inner .desc {
+    color: #fff;
+}
+
+.dt_service--nine .item-inner .dt-more {
+    color: #fff;
+    background-color: var(--dt-main-color);
+    width: 50px;
+    height: 50px;
+    line-height: 46px;
+    text-align: center;
+    font-size: 2.2rem;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 2rem;
+    position: relative;
+    transition: all .4s ease;
+}
+
+.dt_service--nine .item-inner .dt-more:before {
+    content: "";
+    position: absolute;
+    top: -3px;
+    right: -3px;
+    bottom: -3px;
+    left: -3px;
+    border-radius: 50%;
+    border: 1px dashed var(--dt-main-color);
+}
+
+.dt_service--nine .item-inner .dt-more:focus:before,
+.dt_service--nine .item-inner .dt-more:hover:before {
+    animation: floating--rotate 8s infinite linear;
+    border-color: #fff;
+}
+
+.dt_service--nine .item-inner .dt-more:focus,
+.dt_service--nine .item-inner .dt-more:hover {
+    background-color: #fff;
+    color: var(--dt-main-color);
+    box-shadow: 0 0 0 rgb(255, 255, 255, 0.2);
+}
+
+.dt_service--nine .item-inner .dt-more i {
+    transform: rotate(320deg);
+    transition: all 0.5s ease-in-out;
+}
+
+.dt_service--nine .item-inner .dt-more:focus i,
+.dt_service--nine .item-inner .dt-more:hover i {
+    transform: rotate(360deg);
+}
+
+/* Service Eight (Service 5) */
+
+.dt_service--ten .services-item {
+    position: relative;
+    background-color: #fff;
+    transition: all 300ms ease;
+    z-index: 0;
+}
+
+.dt_service--ten .services-item .services-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.dt_service--ten .services-item .services-image img {
+    position: relative;
+    display: block;
+    width: 100%;
+    max-height: 25rem;
+    object-fit: cover;
+    transition: all 300ms ease;
+}
+
+.dt_service--ten .services-item:focus-within .services-image img,
+.dt_service--ten .services-item:hover .services-image img {
+    transform: scale(1.1);
+    opacity: 0.9;
+}
+
+.dt_service--ten .services-item .services-content {
+    position: relative;
+    background-color: #fff;
+    padding: 0 21px 18px;
+}
+
+.dt_service--ten .services-item .services-content .number {
+    position: absolute;
+    top: -40px;
+    right: 65px;
+    font-size: 54px;
+    font-weight: 900;
+    font-family: var(--dt-title-family);
+    -webkit-text-stroke: 2px var(--dt-main-color);
+    color: transparent;
+    opacity: 0.2;
+    z-index: 1;
+}
+
+.dt_service--ten .services-item .services-content .services-info {
+    position: relative;
+    display: inline-block;
+    border-top: 4px solid var(--dt-main-color);
+    margin-top: -56px;
+    padding: 90px 15px 30px 20px;
+    background-color: #f3f4f7;
+}
+
+.dt_service--ten .services-item .services-content .services-info .services-icon {
+    position: absolute;
+    top: -22px;
+    left: 18px;
+    height: 87px;
+    width: 90px;
+    line-height: 87px;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: var(--dt-main-color);
+    transition: all 300ms ease;
+    z-index: 2;
+}
+
+.dt_service--ten .services-item:focus-within .services-content .services-info .services-icon,
+.dt_service--ten .services-item:hover .services-content .services-info .services-icon {
+    color: var(--dt-main-color);
+    background-color: #fff;
+}
+
+.dt_service--ten .services-item .services-content .services-info .title {
+    margin-bottom: 5px;
+}
+
+.dt_service--ten .services-item .services-content .services-info .title a {
+    text-decoration: none;
+}
+
+.dt_service--ten .services-item .services-content .services-info .title a:not(:hover, :focus) {
+    color: var(--dt-secondary-color);
+}
+
+.dt_service--ten .services-item .services-content .services-info p {
+    font-size: 15px;
+    line-height: 1.8em;
+}
+
+.dt_service--ten .services-item .services-content .link-btn {
+    display: inline-block;
+    background-color: var(--dt-secondary-color);
+    width: 100%;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 15px 20px;
+    line-height: 1.4;
+    letter-spacing: 0.05em;
+    position: relative;
+    z-index: 0;
+    color: #fff;
+    overflow: hidden;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.dt_service--ten .services-item .services-content .link-btn:focus,
+.dt_service--ten .services-item .services-content .link-btn:hover {
+    color: #fff;
+}
+
+.dt_service--ten .services-item .services-content .link-btn:before {
+    background-color: var(--dt-main-color);
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    width: 100%;
+    transform: scale(0, 1);
+    transform-origin: top right;
+    transition: transform 500ms cubic-bezier(0.86, 0, 0.07, 1);
+    transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.dt_service--ten .services-item .services-content .link-btn:focus:before,
+.dt_service--ten .services-item .services-content .link-btn:hover:before {
+    transform: scale(1, 1);
+    transform-origin: bottom left;
+}
+
+.dt_service--ten .services-item .services-content .link-btn i {
+    position: relative;
+    display: inline-block;
+    color: var(--dt-main-color);
+    transform: rotate(-45deg);
+    transition: all 300ms ease;
+    margin-left: 10px;
+}
+
+.dt_service--ten .services-item .services-content .link-btn:focus i,
+.dt_service--ten .services-item .services-content .link-btn:hover i {
+    color: #fff;
+}
+
+.wp-block-page-list {
+    list-style: none;
+}
+
+.wp-block-list {
+    padding: 0;
+}

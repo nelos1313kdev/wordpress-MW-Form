@@ -1,0 +1,557 @@
+# Copyright (C) 2025 Titan Themes
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Mechanic Car Repair 1.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/mechanic-car-repair\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-01-27T06:33:03+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: mechanic-car-repair\n"
+
+#. Theme Name of the theme
+#: style.css
+msgid "Mechanic Car Repair"
+msgstr ""
+
+#. Theme URI of the theme
+#: style.css
+msgid "https://www.titanthemes.net/products/free-mechanic-wordpress-theme"
+msgstr ""
+
+#. Description of the theme
+#: style.css
+msgid "The Mechanic Car Repair WordPress Theme is a robust and versatile website template designed specifically for auto repair shops, mechanic workshops, and vehicle maintenance businesses. Whether you’re a car mechanic, motorcycle mechanic, diesel mechanic, or specialize in electric vehicle repair, this theme is built to showcase your services and help attract new customers. Ideal for businesses offering services such as engine repair, brake repair, oil change services, tire repairs, and more, the theme presents a professional image for your business. This theme provides an easy-to-navigate layout that allows visitors to quickly find the information they need about your mechanic services, from transmission repairs and clutch repairs to vehicle diagnostics and emission testing. The theme includes customizable features to help you highlight specific services like roadside assistance, mechanical inspections, and vehicle performance tuning. Visually, the Mechanic Car Repair WordPress Theme boasts a clean and modern design that can be personalized to match your brand. The responsive layout ensures your website looks great on any device, whether on a desktop, tablet, or smartphone. Additionally, the theme supports integration with booking systems, making it simple for customers to schedule appointments online. With SEO-friendly structure, fast-loading pages, and cross-browser compatibility, the theme is designed to improve your online visibility, making it easier for people to find your auto repair shop and mechanic services."
+msgstr ""
+
+#. Author of the theme
+#: style.css
+msgid "Titan Themes"
+msgstr ""
+
+#. Author URI of the theme
+#: style.css
+msgid "https://www.titanthemes.net/"
+msgstr ""
+
+#: about-theme/about-theme.php:8
+msgid "https://wordpress.org/support/theme/mechanic-car-repair/"
+msgstr ""
+
+#: about-theme/about-theme.php:9
+msgid "https://wordpress.org/support/theme/mechanic-car-repair/reviews/#new-post"
+msgstr ""
+
+#: about-theme/about-theme.php:10
+msgid "https://www.titanthemes.net/themes/car-repair-wordpress-theme/"
+msgstr ""
+
+#: about-theme/about-theme.php:11
+msgid "https://titanthemes.net/documentation/business-agency-lite/"
+msgstr ""
+
+#: about-theme/about-theme.php:12
+msgid "https://titanthemes.net/preview/mechanic-car-repair/"
+msgstr ""
+
+#: about-theme/about-theme.php:65
+msgid "Welcome! Thank you for choosing %1$s."
+msgstr ""
+
+#: about-theme/about-theme.php:66
+msgid "By clicking \"Get Started,\" you can access our theme features."
+msgstr ""
+
+#: about-theme/about-theme.php:68
+msgid "Get started with %s"
+msgstr ""
+
+#: about-theme/about-theme.php:69
+msgid "GO FOR PREMIUM"
+msgstr ""
+
+#: about-theme/about-theme.php:121
+msgid "UPGRADE TO PREMIUM"
+msgstr ""
+
+#: about-theme/about-theme.php:129
+msgid "PREMIUM DEMONSTRATION"
+msgstr ""
+
+#: about-theme/about-theme.php:130
+msgid "Effortlessly create and customize your website by arranging text, images, and other elements using the Gutenberg editor, making web design easy and accessible for all skill levels."
+msgstr ""
+
+#: about-theme/about-theme.php:132
+msgid "DEMONSTRATION"
+msgstr ""
+
+#: about-theme/about-theme.php:136
+#: about-theme/about-theme.php:139
+msgid "REVIEWS"
+msgstr ""
+
+#: about-theme/about-theme.php:137
+msgid "We would be happy to hear your thoughts and value your evaluation."
+msgstr ""
+
+#: about-theme/about-theme.php:143
+msgid "24/7 SUPPORT"
+msgstr ""
+
+#: about-theme/about-theme.php:144
+msgid "Please do not hesitate to contact us at support if you need help installing our lite theme. We are prepared to assist you!"
+msgstr ""
+
+#: about-theme/about-theme.php:146
+msgid "SUPPORT"
+msgstr ""
+
+#: about-theme/about-theme.php:150
+msgid "THEME INSTRUCTION"
+msgstr ""
+
+#: about-theme/about-theme.php:151
+msgid "If you need assistance configuring and setting up the theme, our tutorial is available. A fast and simple method for setting up the theme."
+msgstr ""
+
+#: about-theme/about-theme.php:153
+msgid "DOCUMENTATION"
+msgstr ""
+
+#: about-theme/about-theme.php:162
+msgid "The premium version of this theme will be available for you to enhance or unlock our premium features."
+msgstr ""
+
+#: about-theme/about-theme.php:167
+msgid "GO TO PREMIUM"
+msgstr ""
+
+#: about-theme/about-theme.php:172
+msgid "PREMIUM DEMO"
+msgstr ""
+
+#: patterns/banner-block.php
+msgctxt "Pattern title"
+msgid "Banner Block"
+msgstr ""
+
+#: patterns/banner-block.php:15
+msgid "BEST CAR REPAIR"
+msgstr ""
+
+#: patterns/banner-block.php:15
+msgid "MAINTENANCE"
+msgstr ""
+
+#: patterns/banner-block.php:15
+msgid "SERVICES"
+msgstr ""
+
+#: patterns/banner-block.php:18
+msgid "Lorem Ipsum is simply dummy text of the printing"
+msgstr ""
+
+#: patterns/banner-block.php:18
+msgid "and typesetting industry."
+msgstr ""
+
+#: patterns/banner-block.php:25
+#: patterns/services.php:38
+#: patterns/services.php:62
+#: patterns/services.php:86
+msgid "Learn More"
+msgstr ""
+
+#: patterns/banner-block.php:29
+msgid "FREE QUOTE"
+msgstr ""
+
+#: patterns/footer-default.php
+msgctxt "Pattern title"
+msgid "Default Footer"
+msgstr ""
+
+#: patterns/footer-default.php:22
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
+msgstr ""
+
+#: patterns/footer-default.php:44
+msgid "Quick Links"
+msgstr ""
+
+#: patterns/footer-default.php:49
+msgid "About Us"
+msgstr ""
+
+#: patterns/footer-default.php:53
+msgid "Policy"
+msgstr ""
+
+#: patterns/footer-default.php:57
+msgid "Terms and Conditions"
+msgstr ""
+
+#: patterns/footer-default.php:61
+msgid "Career"
+msgstr ""
+
+#: patterns/footer-default.php:65
+msgid "Blog"
+msgstr ""
+
+#: patterns/footer-default.php:69
+#: patterns/footer-default.php:108
+msgid "Contact Us"
+msgstr ""
+
+#: patterns/footer-default.php:76
+msgid "Services"
+msgstr ""
+
+#: patterns/footer-default.php:81
+msgid "Knowledge Base"
+msgstr ""
+
+#: patterns/footer-default.php:85
+msgid "Contact Support"
+msgstr ""
+
+#: patterns/footer-default.php:89
+msgid "Privacy Policy"
+msgstr ""
+
+#: patterns/footer-default.php:93
+msgid "Blog Articles"
+msgstr ""
+
+#: patterns/footer-default.php:97
+msgid "Brand Assets"
+msgstr ""
+
+#: patterns/footer-default.php:101
+msgid "Brand Guidelines"
+msgstr ""
+
+#: patterns/footer-default.php:114
+msgid "14th Street, Caltech, New Jersey, Alabama"
+msgstr ""
+
+#: patterns/footer-default.php:120
+msgid "Monday - Friday"
+msgstr ""
+
+#: patterns/footer-default.php:124
+msgid "8:00 a.m. - 5:00 p.m."
+msgstr ""
+
+#: patterns/footer-default.php:130
+msgid "email@example.com"
+msgstr ""
+
+#: patterns/footer-default.php:136
+msgid "+1 (012) 345-6780"
+msgstr ""
+
+#: patterns/footer-default.php:147
+msgid "Car Repair WordPress Theme "
+msgstr ""
+
+#: patterns/footer-default.php:147
+msgid "| Proudly powered By "
+msgstr ""
+
+#: patterns/footer-default.php:147
+msgid "WordPress"
+msgstr ""
+
+#: patterns/header.php
+msgctxt "Pattern title"
+msgid "Header"
+msgstr ""
+
+#: patterns/header.php:15
+msgid "automobile124example.com"
+msgstr ""
+
+#: patterns/header.php:21
+msgid "+12 3456789012"
+msgstr ""
+
+#: patterns/header.php:27
+msgid "1900 Pico Blvd Santa Monica US"
+msgstr ""
+
+#: patterns/hidden-404.php
+msgctxt "Pattern title"
+msgid "Hidden 404"
+msgstr ""
+
+#: patterns/hidden-404.php:13
+msgctxt "Error code for a webpage that is not found."
+msgid "404"
+msgstr ""
+
+#: patterns/hidden-404.php:19
+msgctxt "Message to convey that a webpage could not be found"
+msgid "This page could not be found."
+msgstr ""
+
+#: patterns/hidden-404.php:22
+#: patterns/hidden-no-results.php:14
+msgctxt "label"
+msgid "Search"
+msgstr ""
+
+#: patterns/hidden-404.php:22
+#: patterns/hidden-no-results.php:14
+msgctxt "placeholder for search field"
+msgid "Search..."
+msgstr ""
+
+#: patterns/hidden-404.php:22
+#: patterns/hidden-no-results.php:14
+#: patterns/sidebar.php:12
+msgid "Search"
+msgstr ""
+
+#: patterns/hidden-comments.php
+msgctxt "Pattern title"
+msgid "Hidden Comments"
+msgstr ""
+
+#: patterns/hidden-comments.php:13
+msgctxt "Title of comments section"
+msgid "Comments"
+msgstr ""
+
+#: patterns/hidden-no-results.php
+msgctxt "Pattern title"
+msgid "Hidden No Results Content"
+msgstr ""
+
+#: patterns/hidden-no-results.php:10
+msgctxt "Message explaining that there are no results returned from a search"
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: patterns/post-meta.php
+msgctxt "Pattern title"
+msgid "Post Meta"
+msgstr ""
+
+#: patterns/post-meta.php:28
+msgctxt "Verb to explain the publication status of a post"
+msgid "Posted"
+msgstr ""
+
+#: patterns/post-meta.php:36
+msgctxt "Preposition to show the relationship between the post and its categories"
+msgid "in"
+msgstr ""
+
+#: patterns/post-meta.php:48
+msgctxt "Preposition to show the relationship between the post and its author"
+msgid "by"
+msgstr ""
+
+#: patterns/post-meta.php:64
+msgctxt "Label for a list of post tags"
+msgid "Tags:"
+msgstr ""
+
+#: patterns/services.php
+msgctxt "Pattern title"
+msgid "Services"
+msgstr ""
+
+#: patterns/services.php:12
+msgid "See Our Project"
+msgstr ""
+
+#: patterns/services.php:16
+msgid "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+msgstr ""
+
+#: patterns/services.php:29
+msgid "Accident Car Repair"
+msgstr ""
+
+#: patterns/services.php:33
+#: patterns/services.php:57
+#: patterns/services.php:81
+msgid "Lorem Ipsum is simply dummy text of dummy."
+msgstr ""
+
+#: patterns/services.php:53
+msgid "Accident Engine Blast Repair"
+msgstr ""
+
+#: patterns/services.php:77
+msgid "Car Full Checkup"
+msgstr ""
+
+#: patterns/sidebar.php
+msgctxt "Pattern title"
+msgid "Sidebar"
+msgstr ""
+
+#: patterns/sidebar.php:22
+msgid "Archives"
+msgstr ""
+
+#: patterns/sidebar.php:32
+msgid "Popular Post"
+msgstr ""
+
+#: patterns/sidebar.php:52
+msgid "Categories"
+msgstr ""
+
+#: patterns/sidebar.php:62
+msgid "Tags"
+msgstr ""
+
+#: patterns/sidebar.php:72
+msgid "Follow Us On"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Single Blog Page (Sidebar on Right)"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Single Blog Page (Sidebar on Left)"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Single Page (Sidebar on Right)"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Single Page (Sidebar on Left)"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Blank"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "404"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Base"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Contrast"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Primary"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Secondary"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Tertiary"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "1"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "2"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "3"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "4"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "5"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "6"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Inter"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Roboto"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Titillium Web"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Fira Sans"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Rowdies"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "System Font"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Footer"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Comments"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Post Meta"
+msgstr ""
