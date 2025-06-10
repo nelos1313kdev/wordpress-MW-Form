@@ -34,13 +34,18 @@ with others.
 }
 
 .header--five .dt_navbar-wrapper {
-    background-color: var(--dt-main-color);
+/*     background-color: var(--dt-main-color); */
+	background-color: #c0c0c0;
 }
 
 .header--five .dt_navbar-wrapper .dt_navbar-menu {
     background-color: #fff;
     border-radius: 10rem 0 0;
     padding-left: 5em;
+}
+
+.dt_navbar-wrapper {
+	background-color: #c0c0c0;
 }
 
 .header--five .dt_header-topbar::before,
@@ -243,6 +248,12 @@ with others.
 .dt_service--nine .dt-row.dt-g-5 {
     --dt-gutter-y: 3.7rem;
     --dt-gutter-x: 3.7rem;
+}
+.dt-row {
+	display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .dt_service--nine .item-inner {
